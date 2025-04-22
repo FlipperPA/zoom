@@ -1,2 +1,4 @@
 # zoom-bit-linux-mint
-A Zoom bot built on Linux Mint.
+
+* [Download the Lightweight ISO](https://linuxmint.com/edition.php?id=320)
+* Burn it to a USB drive with [Etcher](https://etcher.balena.io/)
