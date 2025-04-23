@@ -14,7 +14,7 @@ These instructions will let you build a dedicated computer to use Zoom as a hard
 
 ![image](https://github.com/user-attachments/assets/ea14d6a5-096a-4e5b-9925-3ca79c9a7fd1)
 
-* In the terminal, enter the follow code:
+* In the terminal, enter the following code:
 
 ```bash
 gsettings set org.cinnamon.desktop.screensaver lock-enabled false
