@@ -17,6 +17,5 @@ These instructions will let you build a dedicated computer to use Zoom as a hard
 * In the terminal, enter the following code:
 
 ```bash
-gsettings set org.cinnamon.desktop.screensaver lock-enabled false
-wget https://zoom.us/client/latest/zoom_amd64.deb && sudo apt install ./zoom_amd64.deb && rm zoom_amd64.deb
+curl -LsSf https://raw.githubusercontent.com/FlipperPA/zoom-bot-linux-mint/refs/heads/main/zoombot.sh | sh
 ```
