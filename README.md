@@ -17,5 +17,5 @@ These instructions will let you build a dedicated computer to use Zoom as a hard
 * In the terminal, enter the following code:
 
 ```bash
-curl -LsSf https://raw.githubusercontent.com/FlipperPA/zoom-bot-linux-mint/refs/heads/main/zoombot.sh | sh
+curl -LsSf https://raw.githubusercontent.com/FlipperPA/zoom-bot-linux-mint/refs/heads/main/zoombot.sh | bash
 ```
