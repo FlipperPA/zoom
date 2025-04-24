@@ -29,7 +29,10 @@ It includes options for creating multiple meeting shortcuts on the desktop for e
 curl -LsSf https://raw.githubusercontent.com/FlipperPA/zoom-bot-linux-mint/refs/heads/main/zoombot.sh -o /tmp/zoombot.sh && . /tmp/zoombot.sh
 ```
 
-* This script will install Zoom, and prompt you for Zoom Meeting information to create shortcut icons on the desktop. For each meeting, enter:
+* First, the script will install Zoom on the computer.
+    * When prompted for the password, enter the password for the username you selected above.
+    * When it asks you to install additional packages that will require more disk space, select `YES`.
+* Next, you will be prompted you for Zoom Meeting information to create shortcut icons on the desktop. For each meeting, enter:
     * The meeting name (`My Meeting`)
     * The meeting ID (`1231231234`)
     * The meeting password hash value (`U1ErUUU0OUpxWjZMeExzS1BpRmc2QT09`)
