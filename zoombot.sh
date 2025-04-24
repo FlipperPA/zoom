@@ -25,7 +25,7 @@ Name=$MEETING_NAME
 Exec=zoom 'zoommtg://zoom.us/join?action=join&confno=$MEETING_ID&pwd=$PASSWORD&zc=0&uname=$MEETING_NAME'
 Type=Application
 Terminal=false
-Icon=zoom
+Icon=/usr/share/pixmaps/Zoom.png
 EOF
 
     # Mark the shortcut as safe to run
