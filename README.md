@@ -40,6 +40,7 @@ curl -LsSf https://raw.githubusercontent.com/FlipperPA/zoom-bot-linux-mint/refs/
 
 ## Final Steps
 
+* Click each icon on your desktop, and when the dialog appears, click `Make Executable`. You only have to do this the first time for each.
 * Install the latest updates. The update center appears as a shield in the lower-right hand corner of your screen.
 
 ![image](https://github.com/user-attachments/assets/c4efdfab-80cb-4ec3-896d-82a3c5ec286f)
