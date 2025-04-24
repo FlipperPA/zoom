@@ -20,6 +20,12 @@ These instructions will let you build a dedicated computer to use Zoom as a hard
 curl -LsSf https://raw.githubusercontent.com/FlipperPA/zoom-bot-linux-mint/refs/heads/main/zoombot.sh -o /tmp/zoombot.sh && chmod +x /tmp/zoombot.sh && /tmp/zoombot.sh
 ```
 
+* This script will install Zoom, and prompt you for Zoom Meeting information to create shortcut icons on the desktop. For each meeting, enter:
+    * The meeting name (`My Meeting`)
+    * The meeting ID (`1231231234`)
+    * The meeting password hash value (`U1ErUUU0OUpxWjZMeExzS1BpRmc2QT09`)
+* When you are done adding meetings, leave the meeting name blank and hit enter. Then type `exit` to close the Terminal.
+
 Scratch:
 
 ```bash
