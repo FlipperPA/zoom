@@ -49,7 +49,7 @@ EOF
     fi
 done
 
-cat > shutdown.desktop <<EOF
+cat > "$DESKTOP_DIR/shutdown.desktop" <<EOF
 [Desktop Entry]
 Name=Shutdown Computer
 Exec=shutdown -r now
@@ -59,7 +59,7 @@ Icon=/usr/share/pixmaps/debian-logo.png
 EOF
 
 # Mark the shortcut as safe to run
-chmod +x shutdown.desktop
-gio set shutdown.desktop "metadata::trusted" yes 2>/dev/null || true
-touch shutdown.desktop
-echo "Shortcut to shutdown created."
+chmod +x "$DESKTOP_DIR/shutdown.desktop"
+gio set "$DESKTOP_DIR/shutdown.desktop" "metadata::trusted" yes 2>/dev/null || true
+touch "$DESKTOP_DIR/shutdown.desktop"
+echo "Shortcut to shutdown created. ALL DONE! You can type 'exit' now."
