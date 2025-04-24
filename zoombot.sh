@@ -48,3 +48,18 @@ EOF
         STARTUP_MEETING_EXISTS=true
     fi
 done
+
+cat > shutdown.desktop <<EOF
+[Desktop Entry]
+Name=Shutdown Computer
+Exec=shutdown -r now
+Type=Application
+Terminal=false
+Icon=/usr/share/pixmaps/debian-logo.png
+EOF
+
+# Mark the shortcut as safe to run
+chmod +x shutdown.desktop
+gio set shutdown.desktop "metadata::trusted" yes 2>/dev/null || true
+touch shutdown.desktop
+echo "Shortcut to shutdown created."
