@@ -15,7 +15,7 @@ while true; do
     read -p "Enter Zoom Meeting ID (or leave blank to finish): " MEETING_ID
     read -p "Enter Zoom Password Hash: " PASSWORD
 
-    FILENAME="$DESKTOP_DIR/Zoom-${MEETING_ID}.desktop"
+    FILENAME="$DESKTOP_DIR/Zoom-${MEETING_NAME}.desktop"
 
     echo "Creating launcher for Meeting ID $MEETING_ID..."
 
