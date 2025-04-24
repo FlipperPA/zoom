@@ -1,6 +1,8 @@
-# zoom-bit-linux-mint
+# Zoom Bot How-To
 
-These instructions will let you build a dedicated computer to use Zoom as a hardware appliance.
+This how-to will walk you through creating a computer dedicated to hosting Zoom meetings. It uses a very light version of Linux Mint and Zoom, and will run on almost any PC computer that has been released in the past decade.
+
+It includes options for creating multiple meeting shortcuts on the desktop for easy launching, and the option to automatically start one of the meetings when the computer boots up.
 
 ## Installing Linux Mint
 
