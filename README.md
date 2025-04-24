@@ -26,8 +26,12 @@ curl -LsSf https://raw.githubusercontent.com/FlipperPA/zoom-bot-linux-mint/refs/
     * The meeting password hash value (`U1ErUUU0OUpxWjZMeExzS1BpRmc2QT09`)
 * When you are done adding meetings, leave the meeting name blank and hit enter. Then type `exit` to close the Terminal.
 
-Scratch:
+## Final Steps
 
-```bash
-for schema in $(gsettings list-schemas); do gsettings list-keys "$schema" | grep -i icon | sed "s|^|$schema |"; done
-```
+* Install the latest updates. The update center appears as a shield in the lower-right hand corner of your screen.
+
+![image](https://github.com/user-attachments/assets/c4efdfab-80cb-4ec3-896d-82a3c5ec286f)
+
+* You may wish to increase the size of the Desktop icons. Right click the empty desktop -> `Desktop Settings` -> `Icons`
+    * `Icon size` can be increased to 192
+    * `Use custon font size` can be increased to 144
