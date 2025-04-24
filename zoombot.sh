@@ -4,6 +4,8 @@ gsettings set org.cinnamon.desktop.interface icon-size 192
 # wget https://zoom.us/client/latest/zoom_amd64.deb && apt install ./zoom_amd64.deb && rm zoom_amd64.deb
 
 DESKTOP_DIR="$HOME/Desktop"
+AUTOSTART_DIR="$HOME/.config/autostart"
+mkdir -p "$AUTOSTART_DIR"
 
 while true; do
     read -p "Enter Zoom Meeting Name (or leave blank and hit enter to finish): " MEETING_NAME
@@ -14,6 +16,10 @@ while true; do
 
     read -p "Enter Zoom Meeting ID (or leave blank to finish): " MEETING_ID
     read -p "Enter Zoom Password Hash: " PASSWORD
+
+    if [[ -z "$STARTUP_MEETING_EXISTS" ]]; then
+        read -p "Automatically Start This Meeting on Boot? [Y/N]: " MEETING_START
+    fi
 
     FILENAME="$DESKTOP_DIR/Zoom-${MEETING_NAME}.desktop"
 
@@ -33,4 +39,12 @@ EOF
     gio set "$FILENAME" "metadata::trusted" yes 2>/dev/null || true
     touch "$FILENAME"
     echo "Shortcut created: $FILENAME"
+
+    if [[ "$MEETING_START" =~ ^[Yy]$ && -z "$STARTUP_MEETING_EXISTS" ]]; then
+        AUTOSTART_FILE="$AUTOSTART_DIR/Zoom-${MEETING_NAME}.desktop"
+        cp "$FILENAME" "$AUTOSTART_FILE"
+        chmod +x "$AUTOSTART_FILE"
+        echo "Autostart enabled for: $MEETING_NAME"
+        STARTUP_MEETING_EXISTS=true
+    fi
 done
