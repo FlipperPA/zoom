@@ -19,3 +19,9 @@ These instructions will let you build a dedicated computer to use Zoom as a hard
 ```bash
 curl -LsSf https://raw.githubusercontent.com/FlipperPA/zoom-bot-linux-mint/refs/heads/main/zoombot.sh -o /tmp/zoombot.sh && chmod +x /tmp/zoombot.sh && /tmp/zoombot.sh
 ```
+
+Scratch:
+
+```bash
+for schema in $(gsettings list-schemas); do gsettings list-keys "$schema" | grep -i icon | sed "s|^|$schema |"; done
+```
