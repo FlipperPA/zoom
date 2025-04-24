@@ -28,6 +28,9 @@ Terminal=false
 Icon=zoom
 EOF
 
+    # Mark the shortcut as safe to run
     chmod +x "$FILENAME"
+    gio set "$FILENAME" "metadata::trusted" yes 2>/dev/null || true
+    touch "$FILENAME"
     echo "Shortcut created: $FILENAME"
 done
