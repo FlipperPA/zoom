@@ -52,7 +52,7 @@ done
 cat > "$DESKTOP_DIR/shutdown.desktop" <<EOF
 [Desktop Entry]
 Name=Shutdown Computer
-Exec=shutdown -r now
+Exec=shutdown now
 Type=Application
 Terminal=false
 Icon=/usr/share/pixmaps/debian-logo.png
