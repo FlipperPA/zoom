@@ -17,7 +17,7 @@ These instructions will let you build a dedicated computer to use Zoom as a hard
 * In the terminal, enter the following code:
 
 ```bash
-curl -LsSf https://raw.githubusercontent.com/FlipperPA/zoom-bot-linux-mint/refs/heads/main/zoombot.sh -o /tmp/zoombot.sh && chmod +x /tmp/zoombot.sh && /tmp/zoombot.sh
+curl -LsSf https://raw.githubusercontent.com/FlipperPA/zoom-bot-linux-mint/refs/heads/main/zoombot.sh -o /tmp/zoombot.sh && . /tmp/zoombot.sh
 ```
 
 * This script will install Zoom, and prompt you for Zoom Meeting information to create shortcut icons on the desktop. For each meeting, enter:
