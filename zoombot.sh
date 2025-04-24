@@ -1,7 +1,7 @@
 #!/bin/bash
 gsettings set org.cinnamon.desktop.screensaver lock-enabled false
 gsettings set org.cinnamon.desktop.interface icon-size 256
-wget https://zoom.us/client/latest/zoom_amd64.deb && apt install ./zoom_amd64.deb && rm zoom_amd64.deb
+# wget https://zoom.us/client/latest/zoom_amd64.deb && apt install ./zoom_amd64.deb && rm zoom_amd64.deb
 
 DESKTOP_DIR="$HOME/Desktop"
 
