@@ -14,9 +14,11 @@ It includes options for creating multiple meeting shortcuts on the desktop for e
     * Select `Erase disk and install Linux Mint`, click `Install Now`, then click `Continue` (**This will complete delete everything on the computer!**)
     * Select your time zone, then click `Continue`
     * Fill out your details to create an initial user and password, select `Log in automatically`, then click `Continue`.
+ * After installation is complete, click `Restart Now`. You'll be prompted to remove the USB drive, and hit `Enter`.
 
 ## Configuring Zoom Meetings
 
+* Log in with the username and password you created during installation.
 * Open the Terminal (it is a square, black icon on the Taskbar
 
 ![image](https://github.com/user-attachments/assets/ea14d6a5-096a-4e5b-9925-3ca79c9a7fd1)
