@@ -29,5 +29,6 @@ Icon=zoom
 EOF
 
     chmod +x "$FILENAME"
+    gio set "$FILENAME" "metadata::trusted" yes 2>/dev/null
     echo "Shortcut created: $FILENAME"
 done
