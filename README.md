@@ -18,7 +18,7 @@ It includes options for creating multiple meeting shortcuts on the desktop for e
 
 ## Configuring Zoom Meetings
 
-* Log in with the username and password you created during installation.
+* Uncheck `Show this dialog at startup` and close the `Welcome` window.
 * Open the Terminal (it is a square, black icon on the Taskbar
 
 ![image](https://github.com/user-attachments/assets/ea14d6a5-096a-4e5b-9925-3ca79c9a7fd1)
