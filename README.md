@@ -8,7 +8,12 @@ It includes options for creating multiple meeting shortcuts on the desktop for e
 
 * [Download the Lightweight ISO](https://linuxmint.com/edition.php?id=320)
 * Burn it to a USB drive with [Etcher](https://etcher.balena.io/)
-* Install Linux Mint, create a user, and set it to login on boot
+* Boot to the USB drive, connect to WiFi, and click Install Linux Mint on the desktop
+    * Follow to prompts to select your language and keyboard, then click Continue
+    * Check `Install multimedia codecs`, then Liclick `Continue`
+    * Select `Erase disk and install Linux Mint`, click `Install Now`, then click `Continue` (**This will complete delete everything on the computer!**)
+    * Select your time zone, then click `Continue`
+    * Fill out your details to create an initial user and password, select `Log in automatically`, then click `Continue`.
 
 ## Configuring Zoom Meetings
 
