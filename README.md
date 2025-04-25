@@ -8,8 +8,9 @@ It includes options for creating multiple meeting shortcuts on the desktop for e
 
 * [Download the Lightweight ISO](https://linuxmint.com/edition.php?id=320)
 * Burn it to a USB drive with [Etcher](https://etcher.balena.io/)
-* Boot to the USB drive, connect to WiFi, and click Install Linux Mint on the desktop
+* Boot to the USB drive, and click `Install Linux Mint` on the desktop
     * Follow to prompts to select your language and keyboard, then click Continue
+    * Join a WiFi network
     * Check `Install multimedia codecs`, then Liclick `Continue`
     * Select `Erase disk and install Linux Mint`, click `Install Now`, then click `Continue` (**This will complete delete everything on the computer!**)
     * Select your time zone, then click `Continue`
