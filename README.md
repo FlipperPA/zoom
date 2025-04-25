@@ -49,3 +49,8 @@ curl -LsSf https://raw.githubusercontent.com/FlipperPA/zoom-bot-linux-mint/refs/
 * You may wish to increase the size of the Desktop icons. Right click the empty desktop -> `Desktop Settings` -> `Icons`
     * `Icon size` can be increased to 192
     * `Use custon font size` can be increased to 144
+ 
+## Enjoy Your Zoom Bot!
+
+* When you start the computer, it will fire up the meeting (if any) that you chose to start at boot.
+* Otherwise, click the appropriate icon on the desktop to start a meeting, or shutdown the computer.
