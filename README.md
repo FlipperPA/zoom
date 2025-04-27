@@ -49,6 +49,8 @@ curl -LsSf https://raw.githubusercontent.com/FlipperPA/zoom-bot-linux-mint/refs/
 * You may wish to increase the size of the Desktop icons. Right click the empty desktop -> `Desktop Settings` -> `Icons`
     * `Icon size` can be increased to 192
     * `Use custon font size` can be increased to 144
+* If you're running a touchscreen, you will want to allow desktop icons to be opened with a single click.
+    * Go to `Menu`, `Settings`, `Settings Manager`, `Desktop`. Click the `Icons` tab, and ensure `Single click to activate items` is checked.
  
 ## Enjoy Your Zoom Bot!
 
